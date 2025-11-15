@@ -1,6 +1,8 @@
 Plant Disease Detection is a deep learning project that identifies diseases in plant leaves using image classification. The model takes an uploaded image and predicts which plant disease class it belongs to through a Streamlit-based web interface.
 
-Project Overview
+DATASET LINK -- https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
+#project Overview
 
 This project uses a Convolutional Neural Network trained on images of healthy and diseased plant leaves. The trained model is used in a Streamlit app where users can upload a leaf image and get a prediction instantly.
 
@@ -12,7 +14,7 @@ The final model file is saved as trained_plant_disease_model.keras.
 How to Run :
 
 Install dependencies:
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 
 Run the Streamlit app:
